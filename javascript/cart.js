@@ -32,7 +32,7 @@ btn_addToCart.addEventListener("click", () => {
     }
     else if (btn_addToCart.innerText == "VIEW CART") {
         // Cap nhat duong dan tuyet doi cua trang cart
-        window.location.href = "/System_Web_Technology/html/cart/cart.html";
+        window.location.href = "https://hoangnam69.github.io/System_Web_Technology/html/cart/cart.html";
     }
 
     console.log(btn_addToCart.innerText)
@@ -40,7 +40,7 @@ btn_addToCart.addEventListener("click", () => {
 
 var viewCartInCartPopup = document.getElementById("viewCartInCartPopup")
 viewCartInCartPopup.addEventListener("click", () => {
-    window.location.href = "/System_Web_Technology/html/cart/cart.html";
+    window.location.href = "https://hoangnam69.github.io/System_Web_Technology/html/cart/cart.html";
 })
 
 var close_cart = document.getElementById("close_cart");
