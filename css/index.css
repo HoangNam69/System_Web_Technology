@@ -956,7 +956,7 @@ header nav .menu .level01 {
 .product02 .product .card:hover .controls {
     left: 80%;
     opacity: 1;
-    z-index: 999999999;
+    z-index: 9999;
     cursor: pointer;
 }
 
@@ -1606,6 +1606,25 @@ header nav .menu .level01 {
 #footer .cre .wrapper .col2 a:hover {
     color: white;
     cursor: pointer;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: var(--color-blue);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 26px;
+    display: none;
+}
+
+.back-to-top  a {
+    color: white;
+    text-decoration: none;
 }
 
 /* ----------------RESPONSIVE---------------- */

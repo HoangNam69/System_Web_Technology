@@ -5,12 +5,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta author="LeHoangNam_LeMinhBao">
-      <title>My Account - Devicer</title>
-      <!-- FontAweSome -->
-      <link href="/fontawesome-free-6.3.0-web/css/fontawesome.css" rel="stylesheet">
-      <link href="/fontawesome-free-6.3.0-web/css/brands.css" rel="stylesheet">
-      <link href="/fontawesome-free-6.3.0-web/css/solid.css" rel="stylesheet">
+      <meta author="LeHoangNam">
       <!-- Boxicon -->
       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
       <!-- favicon -->
@@ -18,12 +13,13 @@
       <!-- Font family -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&family=Source+Code+Pro:wght@300;600&display=swap"
-            rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
       <!-- Style css -->
       <link rel="stylesheet" href="/css/my-account/my-account.css">
       <!-- Swiper -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+      <title>Sign Up - Devicer</title>
 </head>
 
 <body>
@@ -228,32 +224,81 @@
                         Sign Up
                   </div>
 
-                  <div class="signup-username">
-                        Username or email address <div style="color: #3350fe;">*</div>
+                  <div class="form-signup__layout-column">
+                        <div class="form-signup-layout-column__left">
+                              <div class="signup-username">
+                                    Username<div class="username-log" style="color: #3350fe;">*</div>
+                              </div>
+
+                              <div class="signup-input-username">
+                                    <input type="text" name="" id="username">
+                              </div>
+
+                              <div class="signup-fullname">
+                                    Fullname<div class="fullname-log" style="color: #3350fe;">*</div>
+                              </div>
+
+                              <div class="signup-input-fullname">
+                                    <input type="text" name="" id="fullname">
+                              </div>
+
+                              <div class="signup-dob">
+                                    Date Of Birth <div class="dob-log" style="color: #3350fe;"></div>
+                              </div>
+
+                              <div class="signup-input-dob">
+                                    <input type="date" name="" id="dob">
+                              </div>
+
+                              <div class="signup-address">
+                                    Address<div style="color: #3350fe;">*</div>
+                              </div>
+
+                              <div class="signup-input-address">
+                                    <input type="text" name="" id="address">
+                              </div>
+                        </div>
+
+                        <div class="form-signup-layout-column__right">
+                              <div class="signup-Email">
+                                    Email address <div class="email-log" style="color: #3350fe;">*</div>
+                              </div>
+
+                              <div class="signup-input-email">
+                                    <input type="email" name="" id="email" placeholder="your.email@gmail.com">
+                              </div>
+
+                              <div class="signup-phone">
+                                    Phone number<div style="color: #3350fe;">*</div>
+                              </div>
+
+                              <div class="signup-input-phone">
+                                    <input type="text" name="" id="phone">
+                              </div>
+
+                              <div class="signup-password">
+                                    Password <div style="color: #3350fe;">*</div>
+                              </div>
+
+                              <div class="signup-input-password">
+                                    <input type="password" name="" id="password">
+                              </div>
+
+                              <div class="signup-password">
+                                    Confirm password <div style="color: #3350fe;">*</div>
+                              </div>
+
+                              <div class="signup-input-confirm-password">
+                                    <input type="password" name="" id="confirm-password">
+                              </div>
+
+                              <div class="button-signup">
+                                    <input type="submit" value="SIGN UP" id="signup">
+                              </div>
+                        </div>
                   </div>
 
-                  <div class="signup-input-username">
-                        <input type="text" name="" id="username">
-                  </div>
 
-                  <div class="signup-password">
-                        Password <div style="color: #3350fe;">*</div>
-                  </div>
-
-                  <div class="signup-input-password">
-                        <input type="password" name="" id="password">
-                  </div>
-                  <div class="signup-password">
-                        Confirm password <div style="color: #3350fe;">*</div>
-                  </div>
-
-                  <div class="signup-input-confirm-password">
-                        <input type="password" name="" id="confirm-password">
-                  </div>
-
-                  <div class="button-signup">
-                        <input type="submit" value="SIGN UP" id="signup">
-                  </div>
             </form>
       </div>
 
@@ -324,7 +369,12 @@
                   </div>
             </div>
       </div>
-      <script src=" /javascript/responsive.js"></script>
+      <script src=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+                                                            integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+                                                            crossorigin="anonymous" referrerpolicy="no-referrer">
+                                                            </script>
+                                                            <script src=" ../../javascript/responsive.js"></script>
+                                                            <script src="../../javascript/signup.js"></script>
 </body>
 
 </html>
