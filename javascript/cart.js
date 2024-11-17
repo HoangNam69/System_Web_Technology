@@ -31,7 +31,7 @@ btn_addToCart.addEventListener("click", () => {
         btn_addToCart.innerText = "VIEW CART"
     }
     else if (btn_addToCart.innerText == "VIEW CART") {
-        window.location.href = "System_Web_Technology/html/cart/cart.html";
+        window.location.href = "html/cart/cart.html";
     }
 
     console.log(btn_addToCart.innerText)
@@ -39,7 +39,7 @@ btn_addToCart.addEventListener("click", () => {
 
 var viewCartInCartPopup = document.getElementById("viewCartInCartPopup")
 viewCartInCartPopup.addEventListener("click", () => {
-    window.location.href = "System_Web_Technology/html/cart/cart.html";
+    window.location.href = "html/cart/cart.html";
 })
 
 var close_cart = document.getElementById("close_cart");
