@@ -568,7 +568,7 @@ header nav .menu .level01 {
 .services {
     width: 100%;
     height: 250px;
-    background-image: url(/images/backGround/dotGrid.png);
+    background-image: url(../images/backGround/dotGrid.png);
     display: flex;
     justify-content: center;
 }
@@ -639,11 +639,11 @@ header nav .menu .level01 {
 }
 
 .card-product01 .card-item.item1 {
-    background-image: url(/images/cardProduct01/featured-2-2.jpg);
+    background-image: url(../images/cardProduct01/featured-2-2.jpg);
 }
 
 .card-product01 .card-item.item2 {
-    background-image: url(/images/cardProduct01/featured-1-1-2.jpg);
+    background-image: url(../images/cardProduct01/featured-1-1-2.jpg);
 }
 
 .card-product01 .card-item .heading {
@@ -985,7 +985,7 @@ header nav .menu .level01 {
 .deal {
     width: 100%;
     height: 525px;
-    background-image: url(/images/backGround/dotGrid.png);
+    background-image: url(../images/backGround/dotGrid.png);
 }
 
 .deal .wrapper .title {
@@ -1123,7 +1123,7 @@ header nav .menu .level01 {
 .product .item2 {
     width: 295px;
     height: 380px;
-    background-image: url(/images/deal/SaleIphoneX.jpg);
+    background-image: url(../images/deal/SaleIphoneX.jpg);
     background-size: cover;
     background-position: right;
     border-radius: 15px;
@@ -1519,7 +1519,7 @@ header nav .menu .level01 {
 .newsLetter {
     width: 100%;
     height: 200px;
-    background-image: url(/images/backGround/dotGrid.png);
+    background-image: url(../images/backGround/dotGrid.png);
     text-align: center;
     display: flex;
     align-items: center;
@@ -2086,7 +2086,7 @@ header nav .menu .level01 {
     .services {
         width: 100%;
         height: 416.34px;
-        background-image: url(/images/backGround/dotGrid.png);
+        background-image: url(../images/backGround/dotGrid.png);
         display: flex;
         justify-content: center;
     }
@@ -2361,7 +2361,7 @@ header nav .menu .level01 {
     .product .item2 {
         width: 479.17px;
         height: 312.17px;
-        background-image: url(/images/deal/SaleIphoneX.jpg);
+        background-image: url(../images/deal/SaleIphoneX.jpg);
         background-size: cover;
         background-position: right;
         border-radius: 15px;
@@ -2674,7 +2674,7 @@ header nav .menu .level01 {
     .services {
         width: 100%;
         height: 420px;
-        background-image: url(/images/backGround/dotGrid.png);
+        background-image: url(../images/backGround/dotGrid.png);
         display: flex;
         justify-content: center;
     }
@@ -2730,11 +2730,11 @@ header nav .menu .level01 {
     }
 
     .card-product01 .card-item.item1 {
-        background-image: url(/images/cardProduct01/featured-2-2.jpg);
+        background-image: url(../images/cardProduct01/featured-2-2.jpg);
     }
 
     .card-product01 .card-item.item2 {
-        background-image: url(/images/cardProduct01/featured-1-1-2.jpg);
+        background-image: url(../images/cardProduct01/featured-1-1-2.jpg);
     }
 
     .card-product01 .card-item .heading {
@@ -2901,7 +2901,7 @@ header nav .menu .level01 {
     .product .item2 {
         width: 100%;
         height: 270px;
-        background-image: url(/images/deal/SaleIphoneX.jpg);
+        background-image: url(../images/deal/SaleIphoneX.jpg);
         background-size: cover;
         background-position: right;
         background-position-y: bottom;

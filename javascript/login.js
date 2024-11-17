@@ -13,9 +13,9 @@ submit.addEventListener("click", (e) => {
     if (dataUSN.value === username && dataPW.value === password) {
         const check = confirm("Bạn chắc chắn muốn chuyển qua trang admin?")
         if (check === true) {
-            window.location.href = "/html/admin/admin.html"
+            window.location.href = "../html/admin/admin.html"
         } else {
-            window.location.href = "/html/index.html"
+            window.location.href = "../index.html"
         }
         
     } else {
