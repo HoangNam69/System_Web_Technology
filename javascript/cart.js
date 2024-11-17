@@ -31,6 +31,7 @@ btn_addToCart.addEventListener("click", () => {
         btn_addToCart.innerText = "VIEW CART"
     }
     else if (btn_addToCart.innerText == "VIEW CART") {
+        // Cap nhat duong dan tuyet doi cua trang cart
         window.location.href = "/System_Web_Technology/html/cart/cart.html";
     }
 
