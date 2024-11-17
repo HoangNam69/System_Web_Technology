@@ -14,9 +14,9 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&family=Source+Code+Pro:wght@300;600&display=swap"
-      rel="stylesheet">
+            rel="stylesheet">
       <!-- Style css -->
-      <link rel="stylesheet" href="/css/my-account/my-account.css">
+      <link rel="stylesheet" href="../../css/my-account/my-account.css">
       <!-- Swiper -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
       <title>LogIn - Devicer</title>
@@ -38,8 +38,8 @@
                                     <li><a href="#">1-800-123-4567</a></li>
                               </ul>
                               <ul id="show-account" class="account">
-                                    <li><a href="/html/my-account/signup.html">Sign Up</a></li>
-                                    <li><a href="/html/my-account/login.html">Log in</a></li>
+                                    <li><a href="../my-account/signup.html">Sign Up</a></li>
+                                    <li><a href="../my-account/login.html">Log in</a></li>
                                     <li><a href="#">My List</a></li>
                               </ul>
                               <div id="account" class="toggle-account">
@@ -52,7 +52,7 @@
                   <nav id="nav-fixed">
                         <div class="navbar">
                               <div class="logo">
-                                    <a href="/html/index.html"><img src="/images/logo/device-home-1-logo.png"
+                                    <a href="../index.html"><img src="../../images/logo/device-home-1-logo.png"
                                                 alt="logo Devicer" title="Devicer"></a>
                               </div>
 
@@ -60,42 +60,6 @@
                                     <div class="search">
                                           <select name="categories" id="categories">
                                                 <option value="allCategories">All Categories</option>
-                                                <option value="acoustics">Acoustics</option>
-                                                <option value="actionCamcorders">Action Camcorders</option>
-                                                <option value="apple">Apple</option>
-                                                <option value="appleIMac">Apple iMac</option>
-                                                <option value="appleIPads">Apple iPads</option>
-                                                <option value="appleIPadsMini">Apple iPads Mini</option>
-                                                <option value="appleLEDTVs">Apple LED TVs</option>
-                                                <option value="appleMacbook">Apple Macbook</option>
-                                                <option value="asus">Asus</option>
-                                                <option value="camera">Camera</option>
-                                                <option value="cellPhones">Cell Phones</option>
-                                                <option value="computerHardware">Computer Hardware</option>
-                                                <option value="daydreamView">Daydream View</option>
-                                                <option value="dellLaptop">Dell Laptop</option>
-                                                <option value="earHeadphones">Ear Headphones</option>
-                                                <option value="headphones">Headphones</option>
-                                                <option value="HTC">HTC</option>
-                                                <option value="iphone">Iphone</option>
-                                                <option value="Keyboards">Keyboards</option>
-                                                <option value="laptops">Laptops</option>
-                                                <option value="ledTVs">LED TVs</option>
-                                                <option value="Meizu">Meizu</option>
-                                                <option value="Mice">Mice</option>
-                                                <option value="Motorola">Motorola</option>
-                                                <option value="Monitors">Monitors</option>
-                                                <option value="nokia">Nokia</option>
-                                                <option value="onePlus">OnePlus</option>
-                                                <option value="over-Ear&On-EarHeadphones">Over-Ear & On-Ear Headphones
-                                                </option>
-                                                <option value="powerbank">Powerbank</option>
-                                                <option value="samsung">Samsung</option>
-                                                <option value="smartWatches">Smart Watches</option>
-                                                <option value="sony">Sony</option>
-                                                <option value="tablets">Tablets</option>
-                                                <option value="televisions">Televisions</option>
-                                                <option value="xiaomi">Xiaomi</option>
                                           </select>
                                           <input type="text" placeholder="Search for products">
                                           <div class="icon_search">
@@ -126,7 +90,7 @@
                         </div>
                         <div id="navMenu" class="menu">
                               <ul class="level01">
-                                    <li><a href="/html/index.html">Home <i class="fa-solid fa-angle-down"></i></a></li>
+                                    <li><a href="../index.html">Home <i class="fa-solid fa-angle-down"></i></a></li>
                                     <li><a href="#">Features <i class="fa-solid fa-angle-down"></i></a>
                                           <ul class="level02">
                                                 <li><a href="#">About us</a></li>
@@ -207,7 +171,7 @@
 
       <div class="redirect">
             <div class="redirect-center">
-                  <a href="/html/index.html" style="text-decoration: none;">Home</a> / <a href=""
+                  <a href="../index.html" style="text-decoration: none;">Home</a> / <a href=""
                         style="text-decoration: none; color: #3350fe;">My Account</a>
             </div>
 
@@ -249,7 +213,7 @@
                   </div>
 
                   <div class="lost-password">
-                        <a href="/html/my-account/lost-password.html">Lost your password?</a>
+                        <a href="../my-account/lost-password.html">Lost your password?</a>
                   </div>
             </form>
       </div>
@@ -325,13 +289,18 @@
                   </div>
             </div>
       </div>
-      <!-- Font Awesome -->
-      <script src=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
-                                                            integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
-                                                            crossorigin="anonymous" referrerpolicy="no-referrer">
-                                                            </script>
-                                                            <script src=" /javascript/login.js"></script>
-                                                            <script src="/javascript/responsive.js"></script>
+      <!-- Category -->
+       <script src=" ../../javascript/models/Category.js"></script>
+                                                            <!-- Font Awesome -->
+                                                            <script
+                                                                  src=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+                                                                  integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+                                                                  crossorigin="anonymous" referrerpolicy="no-referrer">
+                                                                  </script>
+                                                            <!-- Login -->
+                                                            <script src="../../javascript/login.js"></script>
+                                                            <!-- Responsive -->
+                                                            <script src="../../javascript/responsive.js"></script>
 </body>
 
 </html>

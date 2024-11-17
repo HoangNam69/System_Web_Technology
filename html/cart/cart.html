@@ -14,11 +14,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <!-- Style css -->
-    <link rel="stylesheet" href="/css/header-footer/header_Footer.css">
-    <link rel="stylesheet" href="/css/cart/cart.css">
+    <link rel="stylesheet" href="../../css/header-footer/header_Footer.css">
+    <link rel="stylesheet" href="../../css/cart/cart.css">
     <!-- Swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Cart - Devicer</title>
@@ -40,8 +40,8 @@
                         <li><a href="#">1-800-123-4567</a></li>
                     </ul>
                     <ul id="show-account" class="account">
-                        <li><a href="/html/my-account/signup.html">Sign Up</a></li>
-                        <li><a href="/html/my-account/login.html">Log in</a></li>
+                        <li><a href="../my-account/signup.html">Sign Up</a></li>
+                        <li><a href="../my-account/login.html">Log in</a></li>
                         <li><a href="#">My List</a></li>
                     </ul>
                     <div id="login" class="toggle-login">
@@ -53,48 +53,13 @@
             <nav id="nav-fixed">
                 <div class="navbar">
                     <div class="logo">
-                        <a href="/html/index.html"><img src="/images/logo/device-home-1-logo.png" alt="logo Devicer"
+                        <a href="../index.html"><img src="../../images/logo/device-home-1-logo.png" alt="logo Devicer"
                                 title="Devicer"></a>
                     </div>
                     <form id="formSearch" action="#">
                         <div class="search">
                             <select name="categories" id="categories">
                                 <option value="allCategories">All Categories</option>
-                                <option value="acoustics">Acoustics</option>
-                                <option value="actionCamcorders">Action Camcorders</option>
-                                <option value="apple">Apple</option>
-                                <option value="appleIMac">Apple iMac</option>
-                                <option value="appleIPads">Apple iPads</option>
-                                <option value="appleIPadsMini">Apple iPads Mini</option>
-                                <option value="appleLEDTVs">Apple LED TVs</option>
-                                <option value="appleMacbook">Apple Macbook</option>
-                                <option value="asus">Asus</option>
-                                <option value="camera">Camera</option>
-                                <option value="cellPhones">Cell Phones</option>
-                                <option value="computerHardware">Computer Hardware</option>
-                                <option value="daydreamView">Daydream View</option>
-                                <option value="dellLaptop">Dell Laptop</option>
-                                <option value="earHeadphones">Ear Headphones</option>
-                                <option value="headphones">Headphones</option>
-                                <option value="HTC">HTC</option>
-                                <option value="iphone">Iphone</option>
-                                <option value="Keyboards">Keyboards</option>
-                                <option value="laptops">Laptops</option>
-                                <option value="ledTVs">LED TVs</option>
-                                <option value="Meizu">Meizu</option>
-                                <option value="Mice">Mice</option>
-                                <option value="Motorola">Motorola</option>
-                                <option value="Monitors">Monitors</option>
-                                <option value="nokia">Nokia</option>
-                                <option value="onePlus">OnePlus</option>
-                                <option value="over-Ear&On-EarHeadphones">Over-Ear & On-Ear Headphones</option>
-                                <option value="powerbank">Powerbank</option>
-                                <option value="samsung">Samsung</option>
-                                <option value="smartWatches">Smart Watches</option>
-                                <option value="sony">Sony</option>
-                                <option value="tablets">Tablets</option>
-                                <option value="televisions">Televisions</option>
-                                <option value="xiaomi">Xiaomi</option>
                             </select>
                             <input type="text" placeholder="Search for products">
                             <div class="icon_search">
@@ -121,7 +86,7 @@
                             <div class="content">
                                 <div class="products">
                                     <div class="left">
-                                        <img src="/images/product03/p4.jpg" alt="">
+                                        <img src="../../images/product03/p4.jpg" alt="">
                                     </div>
                                     <div class="right">
                                         <div class="title">
@@ -155,7 +120,7 @@
                 </div>
                 <div id="navMenu" class="menu">
                     <ul class="level01">
-                        <li><a href="/html/index.html">Home <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="../index.html">Home <i class="fa-solid fa-angle-down"></i></a></li>
                         <li><a href="#">Features <i class="fa-solid fa-angle-down"></i></a>
                             <ul class="level02">
                                 <li><a href="#">About us</a></li>
@@ -258,7 +223,7 @@
                 </div>
                 <div class="main">
                     <div class="item"><i id="close_cart" class='bx bx-x'></i></div>
-                    <div class="item"><img src="/images/product03/p4.jpg" alt=""></div>
+                    <div class="item"><img src="../../images/product03/p4.jpg" alt=""></div>
                     <div class="item">Apple Macbook</div>
                     <div class="item">$1,000.00</div>
                     <div class="item"><input type="number" class="quantityProductCart" value="1"></div>
@@ -354,11 +319,13 @@
         integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- header -->
-    <script src="/javascript/scrollFixed.js"></script>
+    <script src="../../javascript/scrollFixed.js"></script>
+    <!-- category -->
+    <script src="../../javascript/models/Category.js"></script>
     <!-- cart -->
-    <script src="/javascript/cart.js"></script>
+    <script src="../../javascript/cart.js"></script>
     <!-- Responsive header-->
-    <script src="/javascript/responsiveHeader.js"></script>
+    <script src="../../javascript/responsiveHeader.js"></script>
 </body>
 
 </html>
