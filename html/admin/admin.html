@@ -38,8 +38,8 @@
                     <div class="col col-2 avatar"><img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg"
                             alt="">
                     </div>
-                    <div class="col col-10 name lh-lg fw-semibold fs-4 text-light">
-                        Alexsander Pierce
+                    <div class="col col-10 name lh-lg fw-semibold fs-4 text-light px-4">
+                        WWW
                     </div>
                 </div>
                 <div class="row  py-3 border-bottom border-secondary">
@@ -59,15 +59,10 @@
                             <ul class="navbar-nav col dropdown ">
                                 <li class="row px-3 nav-item fs-5 text-light d-flex justify-content-between">
                                     <a class="text-light nav-link fw-3 fs-3" data-bs-toggle="dropdown" href="#"
-                                        role="button" aria-expanded="false">BILL</a>
+                                        role="button" aria-expanded="false">Categories</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                        <li><a class="dropdown-item" href="#">List Categories</a></li>
+                                        <li><a class="dropdown-item" href="#">Add Categories</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -97,10 +92,26 @@
                         </nav>
                     </div>
                 </div>
-                <div class="row ">
+                <form
+                    style="width: 800px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin: 100px auto; padding: 20px 40px; border-radius: 8px;">
+                    <h1 class="mb-4">Add New Category</h1>
+                    <select name="topCategory" class="form-select mb-4">
+                        <option selected>Select Top Category</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="mb-3">
+                        <label for="nameCategory" class="form-label">Category name:</label>
+                        <input type="text" name="nameCategory" class="form-control" id="nameCategory"
+                            placeholder="Enter Category Name">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add New</button>
+                </form>
+                <!-- <div class="row ">
                     <div class="col border data">
                         <div class="fs-3 border row mt-3 d-flex justify-content-between title">
-                            <div class="col col-2">BILL</div>
+                            <div class="col col-2">Categories</div>
                             <div class="col col-6">
                                 <div class="row align-items-center hereSearch">
                                     <div class="col col-9 content__search">
@@ -117,11 +128,8 @@
                         <table class="table table-striped border">
                             <thead>
                                 <tr>
-                                    <th scope="col">ID</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Phone</th>
-                                    <th scope="col">Products</th>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name</th>
                                 </tr>
                             </thead>
                             <tbody id="product">
@@ -149,7 +157,7 @@
 
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
     </section>
